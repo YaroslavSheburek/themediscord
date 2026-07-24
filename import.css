@@ -1,0 +1,15 @@
+.guildDropdown_f37cb1 {
+    min-height: fit-content;
+    min-width: calc(100% - 64px);
+
+    .guildBadgeAndName_f37cb1 {
+        align-items: center; /* було end */
+        gap: 15px;
+
+        [class^="name"],
+        [class*=" name"] {
+            font-size: 14px !important;
+            line-height: 18px !important;
+        }
+    }
+}
